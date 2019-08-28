@@ -88,4 +88,4 @@ http.cors.allow-origin: /https?:\/\/localhost(:[0-9]+)?/
 # Require explicit names when deleting indices:
 #
 #action.destructive_requires_name: true
-path.repo: ["/mnt/esbackup_remote"]
+#path.repo: ["/mnt/esbackup_remote"]
