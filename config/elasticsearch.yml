@@ -1,6 +1,6 @@
 cluster.name: esremote
 network.host: 0.0.0.0
-transport.port: 42034
+transport.tcp.port: 42034
 http.port: 42035
 http.cors.enabled: true
 http.cors.allow-origin: "*"
@@ -8,3 +8,4 @@ discovery.type: single-node
 #http.cors.allow-methods : OPTIONS, HEAD, GET, POST, PUT, DELETE
 #http.cors.allow-headers : X-Requested-With,X-Auth-Token,Content-Type, Content-Length
 #path.repo: ["/mnt/esbackup_remote"]
+
